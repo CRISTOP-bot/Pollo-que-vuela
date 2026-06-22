@@ -1,0 +1,6 @@
+{
+  "name": "Flappy Bird",
+  "description": "Un emocionante juego clásico de Flappy Bird adaptado para Android con control táctil fácil, animaciones fluidas y puntuaciones máximas almacenadas localmente con Room.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
