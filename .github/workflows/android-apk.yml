@@ -29,7 +29,7 @@ jobs:
 
       - name: Install Android SDK packages
         run: |
-          SDKMANAGER="$(find "$ANDROID_HOME/cmdline-tools" -mindepth 2 -maxdepth 2 -type f -name sdkmanager | sort -V | tail -n 1)"
+          SDKMANAGER="$(find "$ANDROID_HOME/cmdline-tools" -mindepth 3 -maxdepth 3 -type f -name sdkmanager | sort -V | tail -n 1)"
           test -x "$SDKMANAGER"
           set +o pipefail
           yes | "$SDKMANAGER" --sdk_root="$ANDROID_HOME" --licenses
