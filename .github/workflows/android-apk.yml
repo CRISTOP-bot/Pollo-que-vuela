@@ -33,7 +33,7 @@ jobs:
           test -x "$SDKMANAGER"
           set +o pipefail
           yes | "$SDKMANAGER" --sdk_root="$ANDROID_HOME" --licenses
-          "$SDKMANAGER" --sdk_root="$ANDROID_HOME" "platforms;android-36-ext1" "build-tools;36.0.0"
+          "$SDKMANAGER" --sdk_root="$ANDROID_HOME" "platforms;android-36.1" "build-tools;36.0.0"
 
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
